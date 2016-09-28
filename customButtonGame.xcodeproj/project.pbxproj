@@ -15,6 +15,8 @@
 		1B87A25D1D95B9D5006D384F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B87A25B1D95B9D5006D384F /* LaunchScreen.storyboard */; };
 		1B87A2681D95B9D5006D384F /* customButtonGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87A2671D95B9D5006D384F /* customButtonGameTests.swift */; };
 		1B87A2731D95B9D5006D384F /* customButtonGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87A2721D95B9D5006D384F /* customButtonGameUITests.swift */; };
+		1B87A2831D95BBF6006D384F /* bt003_assets in Resources */ = {isa = PBXBuildFile; fileRef = 1B87A2821D95BBF6006D384F /* bt003_assets */; };
+		1B87A2851D95BC44006D384F /* MysteryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B87A2841D95BC44006D384F /* MysteryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1B87A26E1D95B9D5006D384F /* customButtonGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customButtonGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B87A2721D95B9D5006D384F /* customButtonGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customButtonGameUITests.swift; sourceTree = "<group>"; };
 		1B87A2741D95B9D5006D384F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B87A2821D95BBF6006D384F /* bt003_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bt003_assets; sourceTree = "<group>"; };
+		1B87A2841D95BC44006D384F /* MysteryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MysteryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		1B87A2431D95B9D5006D384F = {
 			isa = PBXGroup;
 			children = (
+				1B87A2841D95BC44006D384F /* MysteryButton.swift */,
 				1B87A24E1D95B9D5006D384F /* customButtonGame */,
 				1B87A2661D95B9D5006D384F /* customButtonGameTests */,
 				1B87A2711D95B9D5006D384F /* customButtonGameUITests */,
@@ -102,6 +107,7 @@
 				1B87A24F1D95B9D5006D384F /* AppDelegate.swift */,
 				1B87A2511D95B9D5006D384F /* ViewController.swift */,
 				1B87A2531D95B9D5006D384F /* Main.storyboard */,
+				1B87A2821D95BBF6006D384F /* bt003_assets */,
 				1B87A2591D95B9D5006D384F /* Assets.xcassets */,
 				1B87A25B1D95B9D5006D384F /* LaunchScreen.storyboard */,
 				1B87A25E1D95B9D5006D384F /* Info.plist */,
@@ -238,6 +244,7 @@
 				1B87A25D1D95B9D5006D384F /* LaunchScreen.storyboard in Resources */,
 				1B87A25A1D95B9D5006D384F /* Assets.xcassets in Resources */,
 				1B87A2551D95B9D5006D384F /* Main.storyboard in Resources */,
+				1B87A2831D95BBF6006D384F /* bt003_assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				1B87A2581D95B9D5006D384F /* customButtonGame.xcdatamodeld in Sources */,
 				1B87A2521D95B9D5006D384F /* ViewController.swift in Sources */,
 				1B87A2501D95B9D5006D384F /* AppDelegate.swift in Sources */,
+				1B87A2851D95BC44006D384F /* MysteryButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
